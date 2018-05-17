@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["import"],
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "require-default-props": "off"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "presets": [
+    "es2015",
+    "stage-3"
+  ],
+  "plugins": [
+    "transform-es2015-spread",
+    "transform-es2015-destructuring",
+    "transform-es2015-parameters",
+    "transform-object-rest-spread",
+    "transform-es2015-arrow-functions",
+    "transform-es2015-block-scoped-functions",
+    "transform-es2015-block-scoping",
+    "transform-class-properties",
+    "transform-es2015-for-of",
+    "transform-decorators",
+    "transform-react-constant-elements",
+    "transform-decorators-legacy",
+    "check-es2015-constants"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}
